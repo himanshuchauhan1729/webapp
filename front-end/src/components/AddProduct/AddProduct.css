@@ -1,0 +1,67 @@
+@import "../.././color.css";
+
+.product-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 600px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 20px;
+    /* background-color: var(--black-color); */
+}
+
+.validation{
+    color: red;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.add-product input{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.add-product button{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: var(--grey-color);
+    color: var(--white-color);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.add-product{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--light-grey-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-img{
+    display: none;
+}
+
+label{
+    border: 3px dotted;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

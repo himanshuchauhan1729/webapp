@@ -1,0 +1,199 @@
+@imort "../../color.css";
+.chat-app{
+    /* background-color: red; */
+    /* padding: 20px; */
+    align-items: center;
+    display: flex;
+    height: 500px;
+    /* flex-direction: row; */
+    
+    /* justify-content: center; */
+}
+
+.conversation{
+    /* border: 3px solid black; */
+    width: 20%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-color);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.conversation h2{
+    
+    padding-left: 10px;
+    margin-top: 0;
+    color: white;
+    margin-bottom: 10px;
+    color: var(--white-color);
+
+    
+}
+
+
+.chat{
+    /* border: 2px solid red; */
+    margin: 10px;
+    padding: 5px;
+    
+
+    /* padding: 10px; */
+
+}
+.chat-section{
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:500px;
+}
+
+.chat{
+    /* border: 2px solid pink; */
+    display: flex;
+    margin: 5px;
+    margin-top: 0;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+
+.chat-head{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    /* border: 5px solid var(--blue-color); */
+    background-color: var(--black-color);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    /* justify-content: center; */
+    align-items: center;
+
+    /* margin-right: 30px; */
+
+}
+
+.msg-area{
+    /* border: 5px solid white; */
+    height: 400px;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    overflow-y: auto;
+    border-radius: 10px;
+    /* box-shadow: 0 10px 10px rgba(0,0,0,0.5); */
+    background-color: var(--grey-color);
+}
+
+.message{
+    /* border: 5px solid white; */
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #cce0ff;
+    padding: 5px;
+}
+
+.message h4{
+    /* border: 2px solid black; */
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.message p{
+    /* border: 2px solid black;  */
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.outgoing{
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: var(--white-color);
+    padding-left: 5px;
+}
+.incoming{
+    margin-left: 10px;
+    margin-right: auto;
+    background-color: var(--black-color);
+    padding-left: 5px;
+
+}
+textarea{
+    width: 850px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--grey-color);
+    /* box-shadow: 0 10px 10px rgba(0,0,0,0.5); */
+
+
+}
+
+
+textarea::-webkit-input-placeholder {
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: auto;
+
+  }
+  
+  textarea:-moz-placeholder {
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: auto;
+
+  }
+  
+  textarea::-moz-placeholder {
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: top;
+
+  }
+  
+  textarea:-ms-input-placeholder {
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: auto;
+ 
+  }
+  
+  
+
+
+.conversation div::-webkit-scrollbar{
+    width: 0.5em;
+}
+
+.conversation div::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+/* .conversation div::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(0,0,0,0.3);
+} */
+
+.conversation div::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.msg-area::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.msg-area::-webkit-scrollbar{
+    width: 0.5m;
+}
+
+.msg-area::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}

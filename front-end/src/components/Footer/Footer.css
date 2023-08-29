@@ -1,0 +1,14 @@
+@import "../../color.css";
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--black-color);
+    padding: auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h2{
+    margin: auto;
+}

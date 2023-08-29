@@ -1,0 +1,45 @@
+@import "../../color.css";
+
+.profile{
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+  
+}
+
+.profile-components{
+    /* border: 2px solid orange; */
+    width:85%;
+}
+.user-option{
+    /* border: 2px solid red; */
+    width: 15%;
+    margin-left: auto;
+    scrollbar-width: none;
+    background-color: var(--black-color);
+    height: 600px;
+    /* margin-right: 20px; */
+    
+}
+.user-option ul{
+    
+    list-style: none;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.user-option li{
+    color: var(--light-grey-color);
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+    
